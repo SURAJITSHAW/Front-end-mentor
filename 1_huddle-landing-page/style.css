@@ -7,6 +7,7 @@
 /* General Styles */
 body {
     font-family: "Open Sans", sans-serif;
+    margin: 0;
 }
 
 h1, h2 {
@@ -25,7 +26,43 @@ img {
 }
 
 header {
-    
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-position: center center;
+    background-color: hsl(193, 100%, 96%);
+    padding: 40px 0;
 }
 
-/* 35min */
+.flex {
+    display: flex;
+}
+
+nav {
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.btn {
+    padding: 16px 60px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
